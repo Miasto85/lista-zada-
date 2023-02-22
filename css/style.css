@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box
+}
+
+*,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #f3f3f3;
+    max-width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+@media(max-width:767px) {
+    .main {
+        flex-basis: 100%;
+    }
+}
