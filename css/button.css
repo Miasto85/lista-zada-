@@ -1,6 +1,6 @@
-.newButton {
+.form__Button {
     background-color: teal;
-    color: white;
+    color:rgb(241, 243, 243);
     font-size: 20px;
     border-style: none;
     padding: 10px;
