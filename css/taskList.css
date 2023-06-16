@@ -1,16 +1,35 @@
-.taskList {
-    display:flex;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
+.list {
+    padding: 15px;
+    margin: auto;
 }
 
-.task__item {
+.list__items {
+    list-style: none;
     display: grid;
-    word-wrap: break-word;
     grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
     align-items: center;
-    padding: 10px; 
-    border-bottom: 1px solid rgb(238 238 238 ); 
+    gap: 10px;
+    border-bottom: 2px solid #eee;
+    padding: 10px;
+}
+
+.list__text--done {
+    text-decoration: line-through;
+}
+
+.list__button--remove {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.list__button--done {
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: green;
+    border: none;
 }
